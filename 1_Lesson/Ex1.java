@@ -3,46 +3,46 @@ import java.util.Arrays;
 public class Ex1 {
 
 public static void main(String[] args) {
-    //System.out.println(isSumBetween10And20(5, 15)); // true
-    //System.out.println(isSumBetween10And20(7, 15)); // false
+    System.out.println(isSumBetween10And20(5, 15)); // true
+    System.out.println(isSumBetween10And20(7, 15)); // false
 
-    //System.out.println(isPositive(5)); // true
-    //System.out.println(isPositive(-3)); // false
+    System.out.println(isPositive(5)); // true
+    System.out.println(isPositive(-3)); // false
 
-    //printString("abcd", 5); // abcdabcdabcdabcdabcd
+    printString("abcd", 5); // abcdabcdabcdabcdabcd
 
-    //System.out.println(isLeapYear(2024));
-    //System.out.println(isLeapYear(2022));
+    System.out.println(isLeapYear(2024));
+    System.out.println(isLeapYear(2022));
 
-    //System.out.println(Arrays.toString(createArray(7, 8)));
-    //System.out.println(Arrays.toString(createArray(10, 4)));
+    System.out.println(Arrays.toString(createArray(7, 8)));
+    System.out.println(Arrays.toString(createArray(10, 4)));
 
 
     // 1
-    // int[] array = new int[] {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
-    // System.out.println(Arrays.toString(array));
+    int[] array = new int[] {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
+    System.out.println(Arrays.toString(array));
 
-    // for (int i = 0; i < array.length; i++){
-    //     if (array[i] == 1){
-    //         array[i] = 0;
-    //     }
-    //     else{
-    //         array[i] = 1;
-    //     }
-    // }
-    // System.out.println(Arrays.toString(array));
+    for (int i = 0; i < array.length; i++){
+        if (array[i] == 1){
+            array[i] = 0;
+        }
+        else{
+            array[i] = 1;
+        }
+    }
+    System.out.println(Arrays.toString(array));
 
 
 
     //2
-    // int[] a = new int[] {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
-    // System.out.println((Arrays.toString(a)));
-    // for (int i = 0; i < a.length; i++) {
-    //     if (a[i] < 6){
-    //         a[i]=a[i]*2;
-    //     }
-    // }
-    // System.out.println((Arrays.toString(a)));
+    int[] a = new int[] {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
+    System.out.println((Arrays.toString(a)));
+    for (int i = 0; i < a.length; i++) {
+        if (a[i] < 6){
+            a[i]=a[i]*2;
+        }
+    }
+    System.out.println((Arrays.toString(a)));
 
 
     //3
